@@ -1,6 +1,6 @@
 ## About me
 
-Here are some things about me...
+> Here are some things about me...
 
 - 🔭 I’m currently working on project *JGPCJH*
 - 🌱 I’m currently learning **Git and GitHub**
