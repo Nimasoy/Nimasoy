@@ -18,7 +18,7 @@
 I am a Software Engineer passionate about building **scalable backend services**, **distributed architectures**, and **applied Machine Learning & Computer Vision pipelines**. 
 
 - 💻 **Backend Focus:** High-throughput microservices in **C# / ASP.NET Core**, asynchronous processing, clean domain-driven architecture, and multi-tenancy.
-- 🧠 **AI & ML:** Deep learning research with **PyTorch** (Generative Adversarial Networks, conditional Pix2Pix, U-Net) and materials property prediction via ensemble ML.
+- 🧠 **AI & ML:** Deep learning research with **PyTorch** — author of [image-inpainting-cgan](https://github.com/Nimasoy/image-inpainting-cgan) (Pix2Pix Conditional GANs for structural facade reconstruction) and materials property prediction via ensemble ML.
 - ⚙️ **Data & Infrastructure:** Dockerized deployments, PostgreSQL, MongoDB, and Redis caching/rate-limiting strategies.
 
 ---
@@ -74,9 +74,9 @@ I am a Software Engineer passionate about building **scalable backend services**
 
 | Repository | Focus Area | Tech Stack | Description |
 | :--- | :--- | :--- | :--- |
+| **[image-inpainting-cgan](https://github.com/Nimasoy/image-inpainting-cgan)** 🌟 | Deep Learning / Computer Vision | PyTorch, U-Net, PatchGAN, Gradio | End-to-end Conditional GAN (Pix2Pix) pipeline for dense image restoration on architectural scenes using an 8-stage symmetric U-Net & 70×70 PatchGAN with L1 + adversarial loss. |
 | **[darya_app](https://github.com/Nimasoy/darya_app)** | Full-Stack Enterprise | .NET, React, Vite, Postgres, Docker | Production platform featuring containerized ASP.NET backend, React/Capacitor client, and automated migration pipeline. |
-| **[image-inpainting-cgan](https://github.com/Nimasoy/image-inpainting-cgan)** | Deep Learning / CV | PyTorch, U-Net, PatchGAN, Gradio | Conditional Generative Adversarial Network (Pix2Pix) for structural restoration and semantic scene completion on architectural facades. |
-| **[RateLimiter](https://github.com/Nimasoy/RateLimiter)** | Distributed Systems | ASP.NET Core, Redis, C# | Distributed API rate-limiting engine implementing Token Bucket, Leaky Bucket, and Sliding Window with Redis analytics. |
+| **[RateLimiter](https://github.com/Nimasoy/RateLimiter)** | Distributed Systems | ASP.NET Core, Redis, C# | Distributed API rate-limiting engine implementing Token Bucket, Leaky Bucket, and Sliding Window with atomic Redis Lua scripts and analytics. |
 | **[Metalotech](https://github.com/Nimasoy/Metalotech)** | Applied Machine Learning | Python, Matminer, Scikit-Learn | Fast mechanical property predictor calculating polycrystalline bulk moduli directly from elemental stoichiometry. |
 | **[MongoMultitenant](https://github.com/Nimasoy/MongoMultitenant)** | SaaS Architecture | ASP.NET Core, MongoDB, C# | High-scalability multi-tenant backend architecture featuring dynamic tenant context resolution and database isolation. |
 
