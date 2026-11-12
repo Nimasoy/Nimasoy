@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/Nimasoy">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=2563EB&center=true&vCenter=true&width=650&lines=Backend+%26+Distributed+Systems+Engineer;SRE+%26+Autonomous+Observability+Automation;ASP.NET+Core+%7C+Python+%7C+n8n;Deep+Learning+%26+Computer+Vision+Enthusiast" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=2563EB&center=true&vCenter=true&width=650&lines=Backend+%26+Distributed+Systems+Engineer;SRE+%26+Autonomous+Observability+Automation;Wireless+AI+%26+Wi-Fi+CSI+Sensing+Research;Deep+Learning+%26+Computer+Vision+Enthusiast" alt="Typing SVG" />
   </a>
 </p>
 
@@ -15,9 +15,10 @@
 
 ### 👨‍💻 About Me
 
-I am a Software Engineer passionate about building **scalable backend services**, **autonomous SRE & incident triage systems**, and **applied Machine Learning & Computer Vision pipelines**. 
+I am a Software Engineer passionate about building **scalable backend services**, **autonomous SRE & incident triage systems**, and **applied Machine Learning, Computer Vision & Wireless Sensing pipelines**. 
 
 - 🛠️ **SRE & Autonomous Observability:** Autonomous incident remediation workflows (**n8n**, **Python**, **Google Gemini LLM**, **Sentry**) featuring ephemeral VPN provisioning, heuristic noise reduction, and automated root-cause analysis ([autonomous-sre-incident-triage](https://github.com/Nimasoy/autonomous-sre-incident-triage)).
+- 📡 **Wireless AI & Signal Processing:** B.Sc. thesis research on device-free human motion and respiration sensing using **Wi-Fi Channel State Information (CSI)**, deterministic DSP phase sanitization, and hybrid CNN-BiLSTM spatio-temporal neural networks ([wifi-csi-human-sensing](https://github.com/Nimasoy/wifi-csi-human-sensing)).
 - 💻 **Backend Focus:** High-throughput microservices in **C# / ASP.NET Core**, asynchronous processing, clean domain-driven architecture, and multi-tenancy.
 - 🧠 **AI & ML:** Deep learning research with **PyTorch** — author of [image-inpainting-cgan](https://github.com/Nimasoy/image-inpainting-cgan) (Pix2Pix Conditional GANs for structural facade reconstruction) and materials property prediction via ensemble ML.
 - ⚙️ **Data & Infrastructure:** Dockerized deployments, Linux networking & systemd, PostgreSQL, MongoDB, and Redis caching/rate-limiting strategies.
@@ -58,6 +59,7 @@ I am a Software Engineer passionate about building **scalable backend services**
       <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
       <img src="https://img.shields.io/badge/Torchvision-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
       <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
+      <img src="https://img.shields.io/badge/SciPy_(DSP)-8CAAE6?style=flat-square&logo=scipy&logoColor=white" />
       <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />
       <img src="https://img.shields.io/badge/Gradio-FF7C00?style=flat-square&logo=gradio&logoColor=white" />
     </td>
@@ -66,6 +68,7 @@ I am a Software Engineer passionate about building **scalable backend services**
     <td align="center" width="120"><b>Practices</b></td>
     <td>
       <img src="https://img.shields.io/badge/Autonomous_Incident_Triage-4B5563?style=flat-square" />
+      <img src="https://img.shields.io/badge/Wireless_CSI_Sensing-4B5563?style=flat-square" />
       <img src="https://img.shields.io/badge/Clean_Architecture-4B5563?style=flat-square" />
       <img src="https://img.shields.io/badge/Distributed_Rate_Limiting-4B5563?style=flat-square" />
       <img src="https://img.shields.io/badge/Multitenancy-4B5563?style=flat-square" />
@@ -82,6 +85,7 @@ I am a Software Engineer passionate about building **scalable backend services**
 | Repository | Focus Area | Tech Stack | Description |
 | :--- | :--- | :--- | :--- |
 | **[autonomous-sre-incident-triage](https://github.com/Nimasoy/autonomous-sre-incident-triage)** | SRE / Platform Engineering / Autonomous Observability | n8n, Python, Google Gemini, Sentry, Linux PPP, Docker, Systemd | Production autonomous SRE triage pipeline featuring on-demand ephemeral VPN provisioning (32s average dwell time), 11-pattern heuristic noise pruning (85% SNR increase), Gemini LLM root-cause code remediation, and self-contained atomic state tracking. |
+| **[wifi-csi-human-sensing](https://github.com/Nimasoy/wifi-csi-human-sensing)** | Wireless Sensing / Signal Processing & Deep Learning | Python, PyTorch, SciPy (DSP), CNN-BiLSTM-Attention | B.Sc. thesis research prototype for device-free human presence, respiration, and fall detection from Wi-Fi Channel State Information (CSI) using linear least-squares phase sanitization and a hybrid CNN-BiLSTM-Attention spatio-temporal network. |
 | **[darya_app](https://github.com/Nimasoy/darya_app)** | Full-Stack Enterprise | .NET, React, Vite, Postgres, Docker | Production platform featuring containerized ASP.NET backend, React/Capacitor client, and automated migration pipeline. |
 | **[RateLimiter](https://github.com/Nimasoy/RateLimiter)** | Distributed Systems | ASP.NET Core, Redis, C# | Distributed API rate-limiting engine implementing Token Bucket, Leaky Bucket, and Sliding Window with atomic Redis Lua scripts and analytics. |
 | **[image-inpainting-cgan](https://github.com/Nimasoy/image-inpainting-cgan)** | Deep Learning / Computer Vision | PyTorch, U-Net, PatchGAN, Gradio | End-to-end Conditional GAN (Pix2Pix) pipeline for dense image restoration on architectural scenes using an 8-stage symmetric U-Net & 70×70 PatchGAN with L1 + adversarial loss. |
